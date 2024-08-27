@@ -92,5 +92,8 @@ o	To avoid incurring costs for unused resources, delete the endpoint once you ar
 python
 Copy code
 sm_boto3.delete_endpoint(EndpointName=endpoint_name)
+
+
+
 Conclusion
 This project provides an end-to-end example of how to use AWS SageMaker for machine learning tasks, from data preparation and model training to deployment and inference. By leveraging AWS services, you can build scalable machine learning solutions without managing the underlying infrastructure.
